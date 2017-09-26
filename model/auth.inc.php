@@ -2,17 +2,7 @@
 class Auth {
     function login_form($message) {
         include(ROOT_DIR.'template/title.inc.php');
-        ?>
-        <form method="post" action="" id="" class="" enctype="multipart/form-data">
-            <div>
-            <input type="text" name="userno" value="<?php echo $userno; ?>">
-            </div>
-            <div>
-            <input type="password" name="userpwd" value="<?php echo $userpwd; ?>">
-            </div>
-            <button type="submit">Login</button>
-        </form>
-        <?php
+        include(ROOT_DIR.'template/login_form.php');
         include(ROOT_DIR.'template/tail.inc.php');
         die();
     }

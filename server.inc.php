@@ -7,5 +7,5 @@
 	define("DB_PASSWORD", "password@1");
 	define("DB_DATABASE", "pylon_api");
 	define("ROOT_DIR", dirname(__FILE__) . "/");
-    define("RELA_DIR", "/pylon-api/");
+	define("RELA_DIR", "/pylon-front/");
 ?>
