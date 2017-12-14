@@ -1,0 +1,23 @@
+{
+	"description": "The Cpylon-front framework",
+	"name": "pylon-front/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/komsan21/pylon-front/wiki",
+		"slack": "https://komsan21chat.slack.com",
+		"source": "https://github.com/komsan21/pylon-front"
+	},
+	"require": {
+		"php": ">=5.4.8"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	}
+}
